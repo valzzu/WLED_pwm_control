@@ -1,14 +1,5 @@
 {
-  "name": "pwm_control",
-  "version": "1.0.0",
-  "description": "Flight controller PWM input control for WS2812B LEDs",
-  "author": {
-    "name": "valzzu"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/valzzu/WLED-pwm-control.git"
-  },
+  "name": "WLED_pwm_control",
   "build": {
     "libArchive": false
   },
