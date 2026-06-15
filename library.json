@@ -1,5 +1,5 @@
 {
-  "name": "wled-pwm-control",
+  "name": "WLED-pwm-control",
   "build": {
     "libArchive": false
   },
