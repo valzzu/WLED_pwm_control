@@ -1,7 +1,4 @@
 {
-  "name": "WLED_pwm_control",
-  "build": {
-    "libArchive": false
-  },
-  "dependencies": {}
+  "name": "pwm_control",
+  "build": {"libArchive": false}
 }
