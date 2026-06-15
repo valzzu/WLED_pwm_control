@@ -1,5 +1,5 @@
 {
-  "name": "wled-usermod-example",
+  "name": "wled-pwm-control",
   "build": {
     "libArchive": false
   },
