@@ -1,6 +1,6 @@
 #include "wled.h"
 
-class UsermodPWMInput : public Usermod {
+class WLED_pwm_control : public Usermod {
 private:
   bool enabled = false;
   int8_t pwmPin = -1;
@@ -147,10 +147,10 @@ public:
   }
 };
 
-const char UsermodPWMInput::_name[]    PROGMEM = "PWMInput";
-const char UsermodPWMInput::_enabled[] PROGMEM = "enabled";
-const char UsermodPWMInput::_pin[]     PROGMEM = "pin";
-const char UsermodPWMInput::_mode[]    PROGMEM = "mode";
+const char WLED_pwm_control::_name[]    PROGMEM = "PWMInput";
+const char WLED_pwm_control::_enabled[] PROGMEM = "enabled";
+const char WLED_pwm_control::_pin[]     PROGMEM = "pin";
+const char WLED_pwm_control::_mode[]    PROGMEM = "mode";
 
-static UsermodPWMInput pwm_input_usermod;
+static WLED_pwm_control pwm_input_usermod;
 REGISTER_USERMOD(pwm_input_usermod);
